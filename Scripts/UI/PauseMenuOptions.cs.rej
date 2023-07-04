@@ -1,0 +1,28 @@
+diff a/UnityProjectVietTeam/Assets/Scripts/UI/PauseMenuOptions.cs b/UnityProjectVietTeam/Assets/Scripts/UI/PauseMenuOptions.cs	(rejected hunks)
+@@ -6,26 +6,6 @@
+ 
+ public class PauseMenuOptions : MonoBehaviour
+ {
+-	TimeManager m_TimeManager;
+-
+-	public GameObject homeMenu;
+-
+-	GameObject currentVisibleMenu;
+-
+-	//CameraMovementManager m_cameraMovementManager;
+-
+-	private void Awake()
+-	{
+-		//m_cameraMovementManager = FindObjectOfType<CameraMovementManager>();
+-		m_TimeManager = FindObjectOfType<TimeManager>();
+-		currentVisibleMenu = homeMenu;
+-	}
+-
+-	public void ResumeGame()
+-	{
+-		GUIManager.Instance.ChangePauseMenuVisibility(false);
+-	}
+-
+ 	public void RestartLevel()
+ 	{
+ 		GUIManager.Instance.ChangePauseMenuVisibility(false);

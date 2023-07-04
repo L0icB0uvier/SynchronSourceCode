@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4418bf3ead2eced4fb7cda559d68a0a5, type: 3}
+  m_Name: PrefabSpawnerData
+  m_EditorClassIdentifier: 
+  prefabType:
+  - prefabCategory: 0
+    prefabCategoryInfo:
+    - categoryName: Enemies
+      displayIcon: 1
+      prefabInfo:
+      - prefab: {fileID: 43722051165323360, guid: e6f5a3f3cd4b74f4d8b6000ea1bcd484,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 785f54607ef149c49b3eed7e697f5365, type: 3}
+        prefabName: Sentry
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 5762487013591652253, guid: 13c375ea69668e645ad0f2e79174431b,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 651d4d613fb7f2841a6ba4f7be4b4810, type: 3}
+        prefabName: ' Maintenance Unit'
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 7869975672647103985, guid: 2b19c3102637e4c43a05165174fbcd04,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 6019e219f4d43c2438bc216a4669536d, type: 3}
+        prefabName: Watch Tower
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+    - categoryName: Power system
+      displayIcon: 1
+      prefabInfo:
+      - prefab: {fileID: 273873412082124619, guid: 4cfcd7580148db64b8c71a4601544818,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 4f7d93576d24dfa4585b9a2c90fe425a, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 4586025544021288895, guid: 6364033bd6db8d447999990bbc69ef13,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 6b3085d6e04ee5647bb4a16367c0d7c4, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 8125911798367075494, guid: f01c2c1ed0aac464a8dac43b8c96670b,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: b2ffd88d0b297fb4e830a9b5257922e4, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 7755568297349858307, guid: fafd485afcb1e0b479224e02906e59f0,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: d50af20e7283c67489cd95ee69ad3456, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 4204829678154521441, guid: 3b1bd9f21366c214b92492b4950a85f0,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: c5e44c8be3da8504ca5f764531cd479f, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+    - categoryName: Controlled system
+      displayIcon: 1
+      prefabInfo:
+      - prefab: {fileID: 4015379103534449362, guid: ee979a841d5f1d74783538c8888ba11c,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: d6f2c382f00270b4ebaac1ebe20fca38, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 4296004768834295176, guid: e0d1d3f85e937c44d8cb8f48674ac8c4,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 35fa74dad81583244b1683b3e3f002aa, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 9039455650222290377, guid: 1208bcaf95ec31349acaa47c4676393a,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 9c4e3783a08fc914facb8dbdaf491ebd, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 1482969553473838849, guid: 37e8ba147f3ffa14b89153a071208cc5,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 0472088e87d15904a893bf6139d351a8, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 5447430734789957865, guid: d344d6ea576d1614897d9a3f739e43f4,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 9feb2b8ee1022f94b98a9dbd48257ee9, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 6489457718319448696, guid: 53ca6c14c5f98b746a4a7760fd73e3c3,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 731f9cf913228834d831a3043747d3b9, type: 3}
+        prefabName: Bridge
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 6489457718319448696, guid: cbfc6a16c70533f48acdd327ce37da77,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: ed90a929b2e92e64281fe59aa1a69ecf, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 5405450410068905223, guid: 884138390896f974395117e98365ae50,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 097318c5051cfd04bb90ec4e4cd8784a, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 0
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 5405450410068905223, guid: 4a2fcf30adbc2b14db6ef2e3991a9c4b,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 60f781d5c4f12e14199a9c246dcb7a6a, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 0
+        spawnPosition: {x: 0, y: 0, z: 0}
+    - categoryName: Traps
+      displayIcon: 1
+      prefabInfo:
+      - prefab: {fileID: 8501770511551299004, guid: ac3227f71ec194f479eb62a2aa450c1d,
+          type: 3}
+        prefabImage: {fileID: 2800000, guid: 786757368c73bab4eaedb921a12891f2, type: 3}
+        prefabName: 
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+  - prefabCategory: 2
+    prefabCategoryInfo:
+    - categoryName: Camera
+      displayIcon: 0
+      prefabInfo:
+      - prefab: {fileID: 777401142337449482, guid: 1142a5524039d3047ace292df03ba941,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Interest Point
+        hasParent: 1
+        parentName: InterestPoints
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 3163827908952509627, guid: e1fd38b6e9180dc40bbbd4f97802dfca,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: FixeCameraTrigger
+        hasParent: 1
+        parentName: FixeCameraTriggers
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 4030437626880134590, guid: ac4a01c2593db1b4bbf0b1ff2905978d,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: FixeCamera
+        hasParent: 1
+        parentName: VirtualCameras
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 0
+        spawnPosition: {x: 0, y: 0, z: -10}
+  - prefabCategory: 1
+    prefabCategoryInfo:
+    - categoryName: AINavigation
+      displayIcon: 0
+      prefabInfo:
+      - prefab: {fileID: 1960005063740964107, guid: 45ae049969d3f2a4797eadb3e0bd716c,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Patrol Point
+        hasParent: 1
+        parentName: PatrolPoints
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 3854706238265682209, guid: 0145492d0ba67a7488885edc6ec2e174,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: AIVoidPath
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+    - categoryName: Scene Transition
+      displayIcon: 0
+      prefabInfo:
+      - prefab: {fileID: 8795458704472364981, guid: 15c40fa90324cf447b051344d6a2cfc1,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Location Exit
+        hasParent: 1
+        parentName: SceneTransition
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 5959825969355350540, guid: 571879f5e88837549a6c07a9ea0e4d24,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Location Entrance
+        hasParent: 1
+        parentName: SceneTransition
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 4851293939771402584, guid: 6c52c9c635e529542acbdf01e8f644d5,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Checkpoint
+        hasParent: 1
+        parentName: Checkpoints
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+  - prefabCategory: 3
+    prefabCategoryInfo:
+    - categoryName: Conversation Triggers
+      displayIcon: 0
+      prefabInfo:
+      - prefab: {fileID: 8292198435128928077, guid: 92814928715bed841b753dcc495d72d9,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Skullface Conversation Trigger
+        hasParent: 1
+        parentName: Conversation Triggers
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 8292198435128928077, guid: bf7488742ae6aff46a6a1c438f4efd9d,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Hicks Conversation Trigger
+        hasParent: 1
+        parentName: Conversation Triggers
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 2315998507583896745, guid: d8e7aad30f072a745853cb0da7771e1b,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Use Conversation Trigger
+        hasParent: 1
+        parentName: Conversation Triggers
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 0
+        spawnPosition: {x: 0, y: 0, z: 0}
+    - categoryName: ConversationSaver
+      displayIcon: 0
+      prefabInfo:
+      - prefab: {fileID: 7560707296109756587, guid: 6f888e11a424ff640afb58f1c55c371c,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Conversation Trigger Saver
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 0
+        spawnPosition: {x: 0, y: 0, z: 0}
+    - categoryName: Tutorial
+      displayIcon: 0
+      prefabInfo:
+      - prefab: {fileID: 8788517848857035383, guid: 25ed7fad1617310428119427c7929890,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: Input tutorial trigger
+        hasParent: 1
+        parentName: TutorialTriggers
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 4829705202717689761, guid: 31baeb7a3c938f14591442ea96c58d02,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: HighlightFrame
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+      - prefab: {fileID: 9012055553621317973, guid: 778c8cf15f3efc84688335815619d146,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: CharacterTrigger
+        hasParent: 0
+        parentName: 
+        spawnAsPrefab: 1
+        spawnAtScreenCenter: 1
+        spawnPosition: {x: 0, y: 0, z: 0}
+  - prefabCategory: 4
+    prefabCategoryInfo:
+    - categoryName: Visual
+      displayIcon: 0
+      prefabInfo:
+      - prefab: {fileID: 5433926866515811546, guid: 8203016893649cb4f80d93cb7cc410be,
+          type: 3}
+        prefabImage: {fileID: 0}
+        prefabName: PowerHologram
+        hasParent: 1
+        parentName: Grid2*2
+        spawnAsPrefab: 0
+        spawnAtScreenCenter: 0
+        spawnPosition: {x: 1, y: 2, z: 0}
